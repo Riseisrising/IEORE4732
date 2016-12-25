@@ -1,0 +1,4 @@
+To run the calibration codes, do the following steps:
+1. run main.cpp (make sure you include "PricingEngines.h", "ObjectiveFunctions.h" and "simplex.h" as well) and you will get an excutable file named "calibration" under OS or "calibration.exe" under Windows;
+2. type "./calibration LIBOR_20110214.txt Swap_20110214.txt LIBOR_calibrated_20110214.txt Swap_calibrated_20110214.txt" (OS) or "calibration.exe LIBOR_20110214.txt Swap_20110214.txt LIBOR_calibrated_20110214.txt Swap_calibrated_20110214.txt (Windows)" in your bash and it will output two files "LIBOR_calibrated_20110214.txt" and "Swap_calibrated_20110214.txt" which save the model price;
+3. plots.ipynb and plots.html show the comparison of market price and model price.
